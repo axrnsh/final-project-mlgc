@@ -33,7 +33,7 @@ async function postPredictHandler(request, h) {
         message: 'Model is predicted successfully',
         data
     });
-    response.code(200);
+    response.code(201);
     return response;
 }
 

@@ -7,7 +7,7 @@ RUN npm install
 
 COPY . .
 
-ENV MODEL_URL="https://storage.googleapis.com/mlgc-bucket-ayumi/model-in-prod/model.json"
+ENV MODEL_URL='https://storage.googleapis.com/mlgc-bucket-ayumi/model-in-prod/model.json'
 
 CMD [ "npm", "start" ]
 

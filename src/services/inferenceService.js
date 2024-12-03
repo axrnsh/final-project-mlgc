@@ -21,7 +21,7 @@ async function predictClassification(model, image) {
 
         return result;
     } catch (error) {
-        throw new InputError('Terjadi kesalahan dalam melakukan prediksi');
+        throw new InputError("Terjadi kesalahan dalam melakukan prediksi");
     }
 }
 
